@@ -7,7 +7,7 @@ body {
     /* background: rgb(219, 219, 219); */
     /*background: rgb(134, 157, 168);*/
     /*border: solid black 2px;*/
-    font-size: 1.30em;
+    font-size: 1.12em;
     font-family: sans-serif;
 }
 
@@ -33,8 +33,7 @@ header {
     /* background: rgb(255, 236, 200);*/
     /*background: rgb(134, 157, 168);*/
     /*background: rgb(224, 224, 224);*/
-    background: rgb(222, 235, 255);
-
+    background: rgb(238, 244, 255);
 }
 
 header div {
