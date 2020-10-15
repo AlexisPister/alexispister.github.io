@@ -125,7 +125,7 @@ ul {
 .grid-container {
     display: grid;
     grid-gap: 25px;
-    grid-template-columns: auto auto auto;
+    grid-template-columns: 31% 31% 31%;
     text-align: center;
     justify-items: center;
     align-items: center;
