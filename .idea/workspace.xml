@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="4e0a7edf-b5c4-4c4b-83d9-86a0867fe264" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
@@ -22,9 +25,15 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="dart.analysis.tool.window.visible" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/index.html" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="liveEdit" />
+    <property name="settings.editor.selected.configurable" value="Docker" />
     <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RunManager">
+    <configuration name="Unnamed" type="JavascriptDebugType" nameIsGenerated="true" uri="http://localhost:63343/PersonalWebsite/index.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -37,27 +46,12 @@
       <workItem from="1602447160974" duration="5497000" />
       <workItem from="1602576198407" duration="614000" />
       <workItem from="1602690264131" duration="20596000" />
-      <workItem from="1602835355521" duration="4132000" />
+      <workItem from="1602835355521" duration="4186000" />
+      <workItem from="1612047031124" duration="694000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="461" y="183" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1602690309027">
-      <screen x="114" y="0" width="1680" height="1050" />
-    </state>
-    <state x="461" y="183" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.1050.1920.1080/114.0.1680.1050@114.0.1680.1050" timestamp="1602690309027" />
-    <state x="454" y="211" key="#com.intellij.execution.impl.EditConfigurationsDialog/72.27.1848.1053@72.27.1848.1053" timestamp="1602447370733" />
-    <state x="489" y="161" width="1022" height="737" key="SettingsEditor" timestamp="1602760531429">
-      <screen x="114" y="0" width="1680" height="1050" />
-    </state>
-    <state x="489" y="161" key="SettingsEditor/0.1050.1920.1080/114.0.1680.1050@114.0.1680.1050" timestamp="1602760531429" />
-    <state x="485" y="188" width="1022" height="737" key="SettingsEditor/72.27.1848.1053@72.27.1848.1053" timestamp="1602447195945" />
-    <state x="660" y="252" key="run.anything.popup" timestamp="1602742724149">
-      <screen x="114" y="0" width="1680" height="1050" />
-    </state>
-    <state x="660" y="252" key="run.anything.popup/0.1050.1920.1080/114.0.1680.1050@114.0.1680.1050" timestamp="1602742724149" />
   </component>
 </project>
