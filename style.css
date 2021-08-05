@@ -104,6 +104,10 @@ ul {
     list-style-position: inside;
 }
 
+li{
+    margin: 8px 0;
+}
+
 .google-scholar {
     width: 20px;
     height: 20px;
