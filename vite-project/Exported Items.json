@@ -1,0 +1,233 @@
+[
+	{
+		"id": "http://zotero.org/users/7422441/items/ETWSX257",
+		"type": "article-journal",
+		"abstract": "We report on the process and design for our visual analytics graph analysis challenge winning entry. Specifically, our team addressed the IEEE VAST 2020 Mini-Challenge 1 that asked participants to identify a group of people that accidentally caused an internet outage. To identify this group we were given a network profile and a large multi-variate social network to search in. Our approach involved statistical and graphical analysis as well as the design of three custom visual analytics tools. The submitted solution and visualizations are available at https://graphletmatchmaker.github.io/.",
+		"container-title": "IEEE Computer Graphics and Applications",
+		"DOI": "10.1109/MCG.2021.3091955",
+		"ISSN": "1558-1756",
+		"note": "event: IEEE Computer Graphics and Applications",
+		"page": "1-1",
+		"source": "IEEE Xplore",
+		"title": "VAST 2020 Contest Challenge: GraphMatchMaker: Visual Analytics for Graph Comparison and Matching",
+		"title-short": "VAST 2020 Contest Challenge",
+		"author": [
+			{
+				"family": "Tovanich",
+				"given": "Natkamon"
+			},
+			{
+				"family": "Pister",
+				"given": "Alexis"
+			},
+			{
+				"family": "Richer",
+				"given": "Gaelle"
+			},
+			{
+				"family": "Valdivia",
+				"given": "Paola"
+			},
+			{
+				"family": "Prieur",
+				"given": "Christophe"
+			},
+			{
+				"family": "Fekete",
+				"given": "Jean-Daniel"
+			},
+			{
+				"family": "Isenberg",
+				"given": "Petra"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2021"
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/7422441/items/HMK7XLNP",
+		"type": "article-journal",
+		"abstract": "We propose a new approach-called PK-clustering-to help social scientists create meaningful clusters in social networks. Many clustering algorithms exist but most social scientists find them difficult to understand, and tools do not provide any guidance to choose algorithms, or to evaluate results taking into account the prior knowledge of the scientists. Our work introduces a new clustering approach and a visual analytics user interface that address this issue. It is based on a process that 1) captures the prior knowledge of the scientists as a set of incomplete clusters, 2) runs multiple clustering algorithms (similarly to clustering ensemble methods), 3) visualizes the results of all the algorithms ranked and summarized by how well each algorithm matches the prior knowledge, 4) evaluates the consensus between user-selected algorithms and 5) allows users to review details and iteratively update the acquired knowledge. We describe our approach using an initial functional prototype, then provide two examples of use and early feedback from social scientists. We believe our clustering approach offers a novel constructive method to iteratively build knowledge while avoiding being overly influenced by the results of often randomly selected black-box clustering algorithms.",
+		"container-title": "IEEE Transactions on Visualization and Computer Graphics",
+		"DOI": "10.1109/TVCG.2020.3030347",
+		"ISSN": "1941-0506",
+		"issue": "2",
+		"note": "event: IEEE Transactions on Visualization and Computer Graphics",
+		"page": "1775-1785",
+		"source": "IEEE Xplore",
+		"title": "Integrating Prior Knowledge in Mixed-Initiative Social Network Clustering",
+		"volume": "27",
+		"author": [
+			{
+				"family": "Pister",
+				"given": "Alexis"
+			},
+			{
+				"family": "Buono",
+				"given": "Paolo"
+			},
+			{
+				"family": "Fekete",
+				"given": "Jean-Daniel"
+			},
+			{
+				"family": "Plaisant",
+				"given": "Catherine"
+			},
+			{
+				"family": "Valdivia",
+				"given": "Paola"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2021",
+					2
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/7422441/items/HESH2KRS",
+		"type": "document",
+		"abstract": "We report on our approach, statistical and graphical analysis, as well as three visual analytics tools we built to address the VAST 2020 Mini-Challenge 1. First, we compared the structure of subgraphs using node-link diagrams, graphlet frequencies, and temporal profiles. Second, we devised a method to extract a subgraph of the large graph that matches the identified graph structure and built a custom visu-alization to check our results. Finally, we developed another visual analytics tool to facilitate manual search for pairing person nodes that helped us to solve the challenge. The full report and visualizations are available at https://graphletmatchmaker.github.io/.",
+		"note": "Published: IEEE Visual Analytics Science and Technology, VAST Challenge",
+		"source": "HAL Archives Ouvertes",
+		"title": "GraphletMatchMaker: Visual Analytics Approaches to Graph Matching in Cybersecurity Communities",
+		"title-short": "GraphletMatchMaker",
+		"URL": "https://hal.archives-ouvertes.fr/hal-02986447",
+		"author": [
+			{
+				"family": "Tovanich",
+				"given": "Natkamon"
+			},
+			{
+				"family": "Pister",
+				"given": "Alexis"
+			},
+			{
+				"family": "Richer",
+				"given": "Gaëlle"
+			},
+			{
+				"family": "Valdivia",
+				"given": "Paola"
+			},
+			{
+				"family": "Fekete",
+				"given": "Jean-Daniel"
+			},
+			{
+				"family": "Prieur",
+				"given": "Christophe"
+			},
+			{
+				"family": "Isenberg",
+				"given": "Petra"
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2022",
+					6,
+					9
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"2020",
+					10
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/7422441/items/D2RIQ4WH",
+		"type": "paper-conference",
+		"container-title": "PROFILES/SEMEX@ ISWC",
+		"source": "Google Scholar",
+		"title": "Towards Automatic Domain Classification of LOV Vocabularies",
+		"author": [
+			{
+				"family": "Pister",
+				"given": "Alexis"
+			},
+			{
+				"family": "Atemezing",
+				"given": "Ghislain Auguste"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2019"
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/7422441/items/ZZMZYRYT",
+		"type": "paper-conference",
+		"container-title": "ISWC Satellites",
+		"source": "Google Scholar",
+		"title": "Knowledge Graph Embedding for Triples Fact Validation",
+		"author": [
+			{
+				"family": "Pister",
+				"given": "Alexis"
+			},
+			{
+				"family": "Atemezing",
+				"given": "Ghislain Auguste"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2019"
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/7422441/items/ALLUT5YW",
+		"type": "article-journal",
+		"source": "Google Scholar",
+		"title": "Six methods for transforming layered hypergraphs to apply layered graph layout algorithms",
+		"author": [
+			{
+				"family": "Di Bartolomeo",
+				"given": "Sara"
+			},
+			{
+				"family": "Pister",
+				"given": "Alexis"
+			},
+			{
+				"family": "Buono",
+				"given": "Paolo"
+			},
+			{
+				"family": "Plaisant",
+				"given": "Catherine"
+			},
+			{
+				"family": "Dunne",
+				"given": "Cody"
+			},
+			{
+				"family": "Fekete",
+				"given": "Jean-Daniel"
+			}
+		]
+	}
+]
