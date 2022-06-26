@@ -19,4 +19,9 @@ const props = defineProps({
 </script>
 
 <style scoped>
+
+div {
+  text-align: center;
+}
+
 </style>

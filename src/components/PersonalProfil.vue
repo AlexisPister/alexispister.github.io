@@ -1,15 +1,16 @@
 <template>
   <div id="main">
     <h1>Alexis Pister</h1>
-    <img id="profile-picture" src="../assets/photo.jpg">
-    <p> Doctoral Student at Aviz </p>
+<!--    <img id="profile-picture" src="../static/photo.jpg">-->
+    <img id="profile-picture" src="../static/Moi.jpg">
+<!--    <p> Doctoral Student at Aviz </p>-->
 
     <div class="icons">
       <a class="icon" href="alexis.pister@inria.fr">
         <i class="bx bx-mail-send"></i>
       </a>
 
-      <a class="icon" href="https://scholar.google.com/citations?user=1V203DUAAAAJ&hl=fr&oi=ao">
+      <a class="icon" href="https://github.com/AlexisPister/">
         <i class="bx bxl-github"></i>
       </a>
 
@@ -24,6 +25,17 @@
       <a class="icon" href="https://www.linkedin.com/in/alexis-pister-4748a4109/">
         <i class="bx bxl-linkedin"></i>
       </a>
+    </div>
+
+    <div id="nav-bar" class="styled">
+      <a href="#Presentation"> Presentation </a>
+      <a href="#Education"> Education </a>
+      <a href="#Teaching"> Teaching </a>
+      <a href="#Awards"> Awards </a>
+      <a href="#Publications"> Publications </a>
+      <a href="#Projects"> Projects </a>
+      <a href="#Talks"> Talks </a>
+      <a href="#Volunteering"> Volunteering </a>
     </div>
   </div>
 
@@ -41,13 +53,20 @@ export default {
 
 #main {
   text-align: center;
+  /*position: fixed;*/
+}
+
+h1 {
+  margin-bottom: 6%;
+  /*margin-bottom: 1%;*/
 }
 
 #profile-picture {
-  width: 80%;
-  clip-path: circle(25% at 50% 30%);
-  margin-bottom: -50%;
-  margin-up: -10%;
+  width: 65%;
+  /*width: 80%;*/
+  clip-path: circle(35% at 50% 30%);
+  /*clip-path: circle(25% at 50% 30%);*/
+  margin-bottom: -26%;
 }
 
 a {
@@ -60,6 +79,12 @@ i {
 
 i:hover {
   font-size: 210%;
+}
+
+#nav-bar {
+  display: flex;
+  flex-direction: column;
+  margin-top: 8%;
 }
 
 </style>
