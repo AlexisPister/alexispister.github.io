@@ -10,8 +10,9 @@ import Publications from "./components/Publications.vue";
 import {groupBy} from "lodash/collection";
 import {pubTypes, publicationsTypesEnum} from "./js/utils.js";
 
-import CV from './static/CV.pdf'
-  ;
+import CV from './static/CV.pdf';
+import publicationsList from "./static/Exported Items.json"
+
 // let publications = ref();
 // onBeforeMount( async () => {
 //     let data = await fetch("../Exported Items.json")
@@ -32,7 +33,8 @@ export default {
     }
   },
   async created() {
-    this.publications = await fetch("../Exported Items.json").then(data => data.json());
+    // this.publications = await fetch("../Exported Items.json").then(data => data.json());
+    this.publications = publicationsList;
   },
   computed: {
     publicationsProcessed() {
@@ -54,7 +56,6 @@ export default {
   methods: {
     findPubType(publication) {
       if (publication["note"] && publication.note.toLowerCase().includes("poster")) {
-        // return "Poster";
         return publicationsTypesEnum.Posters;
       } else {
         return pubTypes[publication.type];
@@ -151,7 +152,6 @@ export default {
           <ul>
             <li>
               <a href="http://dahlia.egc.asso.fr/atelierDAHLIA-EGC2022.html">Requêtes et Comparaisons de Réseaux Sociaux Bipartis Multivariés Dynamiques</a><br/>
-                Alexis Pister, Christophe Prieur, Jean-Daniel Fekete<br>
               Knowledge Extraction and Managment Conference<br>
               Virtual, January, 24nd 2022
             </li>
