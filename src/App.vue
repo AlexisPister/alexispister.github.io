@@ -43,7 +43,11 @@ export default {
           pub.type = this.findPubType(pub);
         })
 
+        // TODO: I deleted reports for now for duplication of VAST Challenge, may cause issues later
+        this.publications = this.publications.filter(pub => pub.type != "Reports")
+
         let pubs = groupBy(this.publications, d => d.type)
+
         return pubs
       } else {
         return null;
@@ -77,17 +81,17 @@ export default {
     <div id="main-content" class="component">
       <Section title="Presentation">
         <div class="section">
-          <p>Hello, I am Alexis Pister. I am a third year PhD student in the fields of <strong>visualization</strong>
-            and
-            <strong>data mining</strong> applied to <strong>historical social networks</strong>
+          <p>Hello, I am Alexis Pister. I am a third year PhD student in the field of <strong>Visual Analytics</strong> applied to <strong>historical social networks</strong>
             at <a href="https://www.universite-paris-saclay.fr/">University Paris-Saclay</a>, specifically at Inria
             Saclay (<a href="https://aviz.fr/">Aviz team</a>) and <a href="https://www.telecom-paris.fr/">Telecom
               Paris</a>, under the supervision of
             <a href="https://aviz.fr/~fekete/">Jean-Daniel Fekete</a> and <a
                 href="https://perso.telecom-paristech.fr/cprieur/">Christophe Prieur</a>.</p>
 
-          <p>My work consists in developing visual analytics tools for <strong>community detection and
-            pattern mining</strong> in historical dynamic social networks, with a strong focus on <strong>explainability and interactions.</strong></p>
+          <p>I work on developing dynamic and multivariate social network visual analytics systems to explore historical data, with a strong focus on <strong>explainability and interactions.</strong></p>
+
+          <p>I am interested in social network visual analytics, temporal hypergraph visualization and graph drawing.</p>
+
         </div>
       </Section>
 
@@ -108,10 +112,10 @@ export default {
       <Section title="Teaching">
         <div class="section">
           <ul>
-            <li> 2020 - 2021: <strong>algorithmis and databases</strong> - engineer students, Polytech Paris-Saclay -
+            <li> 2020 - 2021: <strong>algorithms and databases</strong> - engineer students, Polytech Paris-Saclay -
               64h
             </li>
-            <li> 2019 - 2020: <strong>algorithmis and databases</strong> - engineer students, Polytech Paris-Saclay -
+            <li> 2019 - 2020: <strong>algorithms and databases</strong> - engineer students, Polytech Paris-Saclay -
               64h
             </li>
           </ul>

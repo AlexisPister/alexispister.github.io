@@ -6,7 +6,8 @@
 		"container-title": "IEEE Computer Graphics and Applications",
 		"DOI": "10.1109/MCG.2021.3091955",
 		"ISSN": "1558-1756",
-		"note": "event: IEEE Computer Graphics and Applications",
+		"license": "All rights reserved",
+		"note": "event-title: IEEE Computer Graphics and Applications",
 		"page": "1-1",
 		"source": "IEEE Xplore",
 		"title": "VAST 2020 Contest Challenge: GraphMatchMaker: Visual Analytics for Graph Comparison and Matching",
@@ -57,7 +58,8 @@
 		"DOI": "10.1109/TVCG.2020.3030347",
 		"ISSN": "1941-0506",
 		"issue": "2",
-		"note": "event: IEEE Transactions on Visualization and Computer Graphics",
+		"license": "All rights reserved",
+		"note": "event-title: IEEE Transactions on Visualization and Computer Graphics",
 		"page": "1775-1785",
 		"source": "IEEE Xplore",
 		"title": "Integrating Prior Knowledge in Mixed-Initiative Social Network Clustering",
@@ -97,6 +99,7 @@
 		"id": "http://zotero.org/users/7422441/items/HESH2KRS",
 		"type": "document",
 		"abstract": "We report on our approach, statistical and graphical analysis, as well as three visual analytics tools we built to address the VAST 2020 Mini-Challenge 1. First, we compared the structure of subgraphs using node-link diagrams, graphlet frequencies, and temporal profiles. Second, we devised a method to extract a subgraph of the large graph that matches the identified graph structure and built a custom visu-alization to check our results. Finally, we developed another visual analytics tool to facilitate manual search for pairing person nodes that helped us to solve the challenge. The full report and visualizations are available at https://graphletmatchmaker.github.io/.",
+		"license": "All rights reserved",
 		"note": "Published: IEEE Visual Analytics Science and Technology, VAST Challenge",
 		"publisher": "IEEE Visual Analytics Science and Technology, VAST Challenge",
 		"source": "HAL Archives Ouvertes",
@@ -155,7 +158,8 @@
 		"id": "http://zotero.org/users/7422441/items/D2RIQ4WH",
 		"type": "paper-conference",
 		"container-title": "PROFILES/SEMEX@ ISWC",
-		"event": "International Semantic Web Conference",
+		"event-title": "International Semantic Web Conference",
+		"license": "All rights reserved",
 		"source": "Google Scholar",
 		"title": "Towards Automatic Domain Classification of LOV Vocabularies",
 		"author": [
@@ -180,7 +184,8 @@
 		"id": "http://zotero.org/users/7422441/items/ZZMZYRYT",
 		"type": "paper-conference",
 		"container-title": "ISWC Satellites",
-		"event": "International Semantic Web Conference",
+		"event-title": "International Semantic Web Conference",
+		"license": "All rights reserved",
 		"note": "Poster",
 		"source": "Google Scholar",
 		"title": "Knowledge Graph Embedding for Triples Fact Validation",
@@ -206,9 +211,11 @@
 		"id": "http://zotero.org/users/7422441/items/C523A58M",
 		"type": "paper-conference",
 		"abstract": "We present a new system for the visualization, visual query, and comparison of social networks modeled as bipartite multivariate dynamic graphs. Historians and sociologists study collections of documents -such as marriage acts, birth certificates, or contracts-from a region and time of interest and can transform them into Bipartite Multivariate Dynamic Social Networks to follow an in-depth analysis. However, few social network analysis tools are designed for this type of network, and existing ones rarely provide enough interactions to answer complex sociological questions.We present a new visual analytics system allowing to explore this type of network. In particular, we designed a visual query system specifically for this data model, allowing social scientists to easily apply filters on the topology and attributes of a network. We demonstrate how the interface coupled with the query system can be used to answer sociological questions with one real-world use case based on construction contracts.",
+		"DOI": "10.2312/evp.20221115",
 		"ISBN": "978-3-03868-185-4",
 		"language": "en",
-		"note": "Accepted: 2022-06-02T15:29:06Z\nDOI: 10.2312/evp.20221115\nPoster",
+		"license": "All rights reserved",
+		"note": "Accepted: 2022-06-02T15:29:06Z\nPoster",
 		"publisher": "The Eurographics Association",
 		"source": "diglib.eg.org",
 		"title": "Visual Queries on Bipartite Multivariate Dynamic Social Networks",
@@ -252,6 +259,7 @@
 		"DOI": "10.1111/cgf.14538",
 		"issue": "3",
 		"language": "en",
+		"license": "All rights reserved",
 		"page": "1467",
 		"source": "hal.inria.fr",
 		"title": "Six Methods for Transforming Layered Hypergraphs to Apply Layered Graph Layout Algorithms",
@@ -298,6 +306,43 @@
 					"2022",
 					6,
 					13
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/7422441/items/N33QCYA9",
+		"type": "paper-conference",
+		"container-title": "7th Workshop on Visualization for the Digital Humanities (VIS4DH)",
+		"event-title": "IEEE Visualization Conference (VIS) 2022",
+		"license": "All rights reserved",
+		"title": "From Historical Documents To Social Network Visualization: Potential Pitfalls and Network Modeling",
+		"author": [
+			{
+				"family": "Pister",
+				"given": "Alexis"
+			},
+			{
+				"family": "Dufournaud",
+				"given": "Nicole"
+			},
+			{
+				"family": "Cristofoli",
+				"given": "Pascal"
+			},
+			{
+				"family": "Prieur",
+				"given": "Christophe"
+			},
+			{
+				"family": "Fekete",
+				"given": "Jean-Daniel"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2022"
 				]
 			]
 		}
