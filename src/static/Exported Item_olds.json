@@ -1,6 +1,6 @@
 [
 	{
-		"id": "tovanichVAST2020Contest2021",
+		"id": "http://zotero.org/users/7422441/items/ETWSX257",
 		"type": "article-journal",
 		"abstract": "We report on the process and design for our visual analytics graph analysis challenge winning entry. Specifically, our team addressed the IEEE VAST 2020 Mini-Challenge 1 that asked participants to identify a group of people that accidentally caused an internet outage. To identify this group we were given a network profile and a large multi-variate social network to search in. Our approach involved statistical and graphical analysis as well as the design of three custom visual analytics tools. The submitted solution and visualizations are available at https://graphletmatchmaker.github.io/.",
 		"container-title": "IEEE Computer Graphics and Applications",
@@ -51,7 +51,7 @@
 		}
 	},
 	{
-		"id": "pisterIntegratingPriorKnowledge2021",
+		"id": "http://zotero.org/users/7422441/items/HMK7XLNP",
 		"type": "article-journal",
 		"abstract": "We propose a new approach-called PK-clustering-to help social scientists create meaningful clusters in social networks. Many clustering algorithms exist but most social scientists find them difficult to understand, and tools do not provide any guidance to choose algorithms, or to evaluate results taking into account the prior knowledge of the scientists. Our work introduces a new clustering approach and a visual analytics user interface that address this issue. It is based on a process that 1) captures the prior knowledge of the scientists as a set of incomplete clusters, 2) runs multiple clustering algorithms (similarly to clustering ensemble methods), 3) visualizes the results of all the algorithms ranked and summarized by how well each algorithm matches the prior knowledge, 4) evaluates the consensus between user-selected algorithms and 5) allows users to review details and iteratively update the acquired knowledge. We describe our approach using an initial functional prototype, then provide two examples of use and early feedback from social scientists. We believe our clustering approach offers a novel constructive method to iteratively build knowledge while avoiding being overly influenced by the results of often randomly selected black-box clustering algorithms.",
 		"container-title": "IEEE Transactions on Visualization and Computer Graphics",
@@ -96,7 +96,7 @@
 		}
 	},
 	{
-		"id": "tovanichGraphletMatchMakerVisualAnalytics2020",
+		"id": "http://zotero.org/users/7422441/items/HESH2KRS",
 		"type": "document",
 		"abstract": "We report on our approach, statistical and graphical analysis, as well as three visual analytics tools we built to address the VAST 2020 Mini-Challenge 1. First, we compared the structure of subgraphs using node-link diagrams, graphlet frequencies, and temporal profiles. Second, we devised a method to extract a subgraph of the large graph that matches the identified graph structure and built a custom visu-alization to check our results. Finally, we developed another visual analytics tool to facilitate manual search for pairing person nodes that helped us to solve the challenge. The full report and visualizations are available at https://graphletmatchmaker.github.io/.",
 		"license": "All rights reserved",
@@ -155,7 +155,7 @@
 		}
 	},
 	{
-		"id": "pisterAutomaticDomainClassification2019",
+		"id": "http://zotero.org/users/7422441/items/D2RIQ4WH",
 		"type": "paper-conference",
 		"container-title": "PROFILES/SEMEX@ ISWC",
 		"event-title": "International Semantic Web Conference",
@@ -181,7 +181,7 @@
 		}
 	},
 	{
-		"id": "pisterKnowledgeGraphEmbedding2019",
+		"id": "http://zotero.org/users/7422441/items/ZZMZYRYT",
 		"type": "paper-conference",
 		"container-title": "ISWC Satellites",
 		"event-title": "International Semantic Web Conference",
@@ -208,7 +208,7 @@
 		}
 	},
 	{
-		"id": "pisterVisualQueriesBipartite2022",
+		"id": "http://zotero.org/users/7422441/items/C523A58M",
 		"type": "paper-conference",
 		"abstract": "We present a new system for the visualization, visual query, and comparison of social networks modeled as bipartite multivariate dynamic graphs. Historians and sociologists study collections of documents -such as marriage acts, birth certificates, or contracts-from a region and time of interest and can transform them into Bipartite Multivariate Dynamic Social Networks to follow an in-depth analysis. However, few social network analysis tools are designed for this type of network, and existing ones rarely provide enough interactions to answer complex sociological questions.We present a new visual analytics system allowing to explore this type of network. In particular, we designed a visual query system specifically for this data model, allowing social scientists to easily apply filters on the topology and attributes of a network. We demonstrate how the interface coupled with the query system can be used to answer sociological questions with one real-world use case based on construction contracts.",
 		"DOI": "10.2312/evp.20221115",
@@ -252,7 +252,7 @@
 		}
 	},
 	{
-		"id": "bartolomeoSixMethodsTransforming2022",
+		"id": "http://zotero.org/users/7422441/items/L8THKX6U",
 		"type": "article-journal",
 		"abstract": "Hypergraphs are a generalization of graphs in which edges (hyperedges) can connect more than two vertices-as opposed to ordinary graphs where edges involve only two vertices. Hypergraphs are a fairly common data structure but there is little consensus on how to visualize them. To optimize a hypergraph drawing for readability, we need a layout algorithm. Common graph layout algorithms only consider ordinary graphs and do not take hyperedges into account. We focus on layered hypergraphs, a particular class of hypergraphs that, like layered graphs, assigns every vertex to a layer, and the vertices in a layer are drawn aligned on a linear axis with the axes arranged in parallel. In this paper, we propose a general method to apply layered graph layout algorithms to layered hypergraphs. We introduce six different transformations for layered hypergraphs. The choice of transformation affects the subsequent graph layout algorithm in terms of computational performance and readability of the results. Thus, we perform a comparative evaluation of these transformations in terms of number of crossings, edge length, and impact on performance. We also provide two case studies showing how our transformations can be applied to real-life use cases. A copy of this paper with all appendices and supplemental material is available at osf.io/grvwu.",
 		"container-title": "Computer Graphics Forum",
@@ -311,7 +311,7 @@
 		}
 	},
 	{
-		"id": "pisterHistoricalDocumentsSocial2022",
+		"id": "http://zotero.org/users/7422441/items/N33QCYA9",
 		"type": "paper-conference",
 		"container-title": "7th Workshop on Visualization for the Digital Humanities (VIS4DH)",
 		"event-title": "IEEE Visualization Conference (VIS) 2022",
@@ -343,63 +343,6 @@
 			"date-parts": [
 				[
 					"2022"
-				]
-			]
-		}
-	},
-	{
-		"id": "richerScalabilityVisualization2022a",
-		"type": "article",
-		"abstract": "We introduce a conceptual model for scalability designed for visualization research. With this model, we systematically analyze over 120 visualization publications from 1990-2020 to characterize the different notions of scalability in these works. While many papers have addressed scalability issues, our survey identifies a lack of consistency in the use of the term in the visualization research community. We address this issue by introducing a consistent terminology meant to help visualization researchers better characterize the scalability aspects in their research. It also helps in providing multiple methods for supporting the claim that a work is \"scalable\". Our model is centered around an effort function with inputs and outputs. The inputs are the problem size and resources, whereas the outputs are the actual efforts, for instance, in terms of computational run time or visual clutter. We select representative examples to illustrate different approaches and facets of what scalability can mean in visualization literature. Finally, targeting the diverse crowd of visualization researchers without a scalability tradition, we provide a set of recommendations for how scalability can be presented in a clear and consistent way to improve fair comparison between visualization techniques and systems and foster reproducibility.",
-		"DOI": "10.48550/arXiv.2210.06562",
-		"license": "All rights reserved",
-		"note": "arXiv:2210.06562 [cs]",
-		"number": "arXiv:2210.06562",
-		"publisher": "arXiv",
-		"source": "arXiv.org",
-		"title": "Scalability in Visualization",
-		"URL": "http://arxiv.org/abs/2210.06562",
-		"author": [
-			{
-				"family": "Richer",
-				"given": "Gaëlle"
-			},
-			{
-				"family": "Pister",
-				"given": "Alexis"
-			},
-			{
-				"family": "Abdelaal",
-				"given": "Moataz"
-			},
-			{
-				"family": "Fekete",
-				"given": "Jean-Daniel"
-			},
-			{
-				"family": "Sedlmair",
-				"given": "Michael"
-			},
-			{
-				"family": "Weiskopf",
-				"given": "Daniel"
-			}
-		],
-		"accessed": {
-			"date-parts": [
-				[
-					"2022",
-					10,
-					23
-				]
-			]
-		},
-		"issued": {
-			"date-parts": [
-				[
-					"2022",
-					10,
-					12
 				]
 			]
 		}

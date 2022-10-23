@@ -59,7 +59,9 @@ export default {
   },
   methods: {
     findPubType(publication) {
-      if (publication["note"] && publication.note.toLowerCase().includes("poster")) {
+      if (publication["publisher"] == "arXiv") {
+        return publicationsTypesEnum.Preprint;
+      } else if (publication["note"] && publication.note.toLowerCase().includes("poster")) {
         return publicationsTypesEnum.Posters;
       } else {
         return pubTypes[publication.type];
@@ -99,8 +101,8 @@ export default {
         <div class="section">
           <ul>
             <li> 2019: Master 2 of <strong>Artificial Intelligence</strong>, University Lyon I</li>
-            <li> 2019: <strong>Bioinformatics and modeling engineering</strong> degree, INSA Lyon</li>
-            <li> 2016: Bachelor of <strong>biology</strong> (2 years), Sorbonne University Paris</li>
+            <li> 2016-2019: <strong>Bioinformatics and Modeling Engineering</strong> Degree, INSA Lyon</li>
+            <li> 2014-2016: Bachelor of <strong>Biology</strong> (2 years), Sorbonne University Paris</li>
           </ul>
           <p>
 <!--            You can see my professional curriculum <a target="_blank" rel="noopener noreferrer" href="./static/CV.pdf">here</a>.-->
@@ -112,10 +114,10 @@ export default {
       <Section title="Teaching">
         <div class="section">
           <ul>
-            <li> 2020 - 2021: <strong>algorithms and databases</strong> - engineer students, Polytech Paris-Saclay -
+            <li> 2020-2021: <strong>algorithms and databases</strong> - engineer students, Polytech Paris-Saclay -
               64h
             </li>
-            <li> 2019 - 2020: <strong>algorithms and databases</strong> - engineer students, Polytech Paris-Saclay -
+            <li> 2019-2020: <strong>algorithms and databases</strong> - engineer students, Polytech Paris-Saclay -
               64h
             </li>
           </ul>

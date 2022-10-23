@@ -3,11 +3,13 @@ export const publicationsTypesEnum = {
     WorkShopPapers: "Workshop Papers",
     Posters: "Posters",
     Other: "Others",
-    Reports: "Reports"
+    Reports: "Reports",
+    Preprint: "Preprints"
 }
 
 export const pubTypes = {
     "article-journal": publicationsTypesEnum.FullPapers,
     "document": publicationsTypesEnum.Reports,
-    "paper-conference": publicationsTypesEnum.WorkShopPapers
+    "paper-conference": publicationsTypesEnum.WorkShopPapers,
+    "Preprint": publicationsTypesEnum.Preprint
 }
