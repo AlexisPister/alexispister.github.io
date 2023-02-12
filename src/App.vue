@@ -10,8 +10,10 @@ import Publications from "./components/Publications.vue";
 import {groupBy} from "lodash/collection";
 import {pubTypes, publicationsTypesEnum} from "./js/utils.js";
 
-import CV from './static/CV.pdf';
-import publicationsList from "./static/Exported Items.json"
+import CV from './static/CV/CV_Academique.pdf';
+// import CV from './static/CV.pdf';
+// import publicationsList from "./static/Exported Items.json"
+import publicationsList from "./static/bib.json"
 
 // let publications = ref();
 // onBeforeMount( async () => {
@@ -73,8 +75,6 @@ export default {
 </script>
 
 <template>
-  <!--  <img alt="Vue logo" src="./static/logo.png" />-->
-  <!--  <HelloWorld msg="Super Message" />-->
   <div class="parent">
     <div id="personal" class="component">
       <personal-profil></personal-profil>
@@ -83,16 +83,19 @@ export default {
     <div id="main-content" class="component">
       <Section title="Presentation">
         <div class="section">
-          <p>Hello, I am Alexis Pister. I am a third year PhD student in the field of <strong>Visual Analytics</strong> applied to <strong>historical social networks</strong>
-            at <a href="https://www.universite-paris-saclay.fr/">University Paris-Saclay</a>, specifically at Inria
-            Saclay (<a href="https://aviz.fr/">Aviz team</a>) and <a href="https://www.telecom-paris.fr/">Telecom
-              Paris</a>, under the supervision of
-            <a href="https://aviz.fr/~fekete/">Jean-Daniel Fekete</a> and <a
-                href="https://perso.telecom-paristech.fr/cprieur/">Christophe Prieur</a>.</p>
+<!--          <p>Hello, I am Alexis Pister. I am a third year PhD student in the field of <strong>Visual Analytics</strong> applied to <strong>historical social networks</strong>-->
+<!--            at <a href="https://www.universite-paris-saclay.fr/">University Paris-Saclay</a>, specifically at Inria-->
+<!--            Saclay (<a href="https://aviz.fr/">Aviz team</a>) and <a href="https://www.telecom-paris.fr/">Telecom-->
+<!--              Paris</a>, under the supervision of-->
+<!--            <a href="https://aviz.fr/~fekete/">Jean-Daniel Fekete</a> and <a-->
+<!--                href="https://perso.telecom-paristech.fr/cprieur/">Christophe Prieur</a>.</p>-->
 
-          <p>I work on developing dynamic and multivariate social network visual analytics systems to explore historical data, with a strong focus on <strong>explainability and interactions.</strong></p>
+<!--          <p>I work on developing dynamic and multivariate social network visual analytics systems to explore historical data, with a strong focus on <strong>explainability and interactions.</strong></p>-->
 
-          <p>I am interested in social network visual analytics, temporal hypergraph visualization and graph drawing.</p>
+<!--          <p>I am interested in social network visual analytics, temporal hypergraph visualization and graph drawing.</p>-->
+          <p>Hello, I am Alexis Pister. I just successfully defended my PhD dissertation entitled <a href="https://www.theses.fr/2022UPASG081">Visual Analytics for Historical Social Networks: Traceability, Exploration, and Analysis</a>, supervised by <a href="https://aviz.fr/~fekete/">Jean-Daniel Fekete</a> and <a href="https://perso.telecom-paristech.fr/cprieur/">Christophe Prieur</a>.</p>
+
+          <p>My research interests lie in information visualization, visual analytics, and (social) network visualization. I like to design and develop interactive systems with new visualization and interaction techniques for the exploration and analysis of complex data. My PhD focused on developing new ways to visualize and analyze historical documents modeled into social networks, with a focus on traceability and explainability. I am now mainly working on new ways to show dynamic hypergraphs.</p>
 
         </div>
       </Section>
@@ -100,13 +103,16 @@ export default {
       <Section title="Education">
         <div class="section">
           <ul>
+            <li> 2019-2022: Ph.D. in <strong>Visual Analytics for Historical Social Networks</strong>, Inria Saclay, Université Paris-Saclay &
+Telecom Paris</li>
             <li> 2018-2019: Master 2 of <strong>Artificial Intelligence</strong>, University Lyon I</li>
             <li> 2016-2019: <strong>Bioinformatics and Modeling Engineering</strong> Degree, INSA Lyon</li>
             <li> 2014-2016: Bachelor of <strong>Biology</strong> (2 years), Sorbonne University Paris</li>
           </ul>
           <p>
 <!--            You can see my professional curriculum <a target="_blank" rel="noopener noreferrer" href="./static/CV.pdf">here</a>.-->
-            You can see my professional curriculum <a target="_blank" rel="noopener noreferrer" :href="cv">here</a>.
+<!--            You can see my professional curriculum <a target="_blank" rel="noopener noreferrer" :href="cv">here</a>.-->
+            You can see my full curriculum <a target="_blank" rel="noopener noreferrer" :href="cv">here</a>.
           </p>
         </div>
       </Section>

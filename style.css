@@ -1,0 +1,8 @@
+#blob1 {
+    position: sticky;
+    width: 20vw;
+    /*height: 500px;*/
+    left: 5vw;
+    bottom: 30vh;
+    opacity: 0.3;
+}
