@@ -12,8 +12,6 @@ import { ref } from 'vue'
 defineProps({
   title: String
 })
-
-const count = ref(0)
 </script>
 
 <style scoped>

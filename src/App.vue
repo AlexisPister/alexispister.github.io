@@ -82,7 +82,7 @@ export default {
 
     <div id="main-content" class="component">
       <Section title="Presentation">
-        <div class="section">
+        <div id="presentation" class="section">
 <!--          <p>Hello, I am Alexis Pister. I am a third year PhD student in the field of <strong>Visual Analytics</strong> applied to <strong>historical social networks</strong>-->
 <!--            at <a href="https://www.universite-paris-saclay.fr/">University Paris-Saclay</a>, specifically at Inria-->
 <!--            Saclay (<a href="https://aviz.fr/">Aviz team</a>) and <a href="https://www.telecom-paris.fr/">Telecom-->
@@ -96,7 +96,6 @@ export default {
           <p>Hello, I am Alexis Pister. I just successfully defended my PhD dissertation entitled <a href="https://www.theses.fr/2022UPASG081">Visual Analytics for Historical Social Networks: Traceability, Exploration, and Analysis</a>, supervised by <a href="https://aviz.fr/~fekete/">Jean-Daniel Fekete</a> and <a href="https://perso.telecom-paristech.fr/cprieur/">Christophe Prieur</a>.</p>
 
           <p>My research interests lie in information visualization, visual analytics, and (social) network visualization. I like to design and develop interactive systems with new visualization and interaction techniques for the exploration and analysis of complex data. My PhD focused on developing new ways to visualize and analyze historical documents modeled into social networks, with a focus on traceability and explainability. I am now mainly working on new ways to show dynamic hypergraphs.</p>
-
         </div>
       </Section>
 
@@ -219,6 +218,10 @@ body {
   color: #000000;
   font-variant-caps: small-caps;
   font-weight: normal;
+}
+
+#presentation {
+  text-align: justify;
 }
 
 li{
