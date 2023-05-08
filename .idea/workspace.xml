@@ -5,8 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4e0a7edf-b5c4-4c4b-83d9-86a0867fe264" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/static/imgs/30daychartchallenge.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/HelloWorld.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/PersonalProfil.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/PersonalProfil.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Project.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Project.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ProjectGrid.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ProjectGrid.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Section.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Section.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/static/bib.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/static/bib.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,7 +53,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "/home/alexis/Projets/web/PersonalWebsite",
+    "last_opened_file_path": "/home/alexis/Projets/web/PersonalWebsite/src/static/CV",
     "list.type.of.created.stylesheet": "CSS",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -58,10 +65,13 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/static/CV" />
+      <recent name="$PROJECT_DIR$/src/static/imgs" />
       <recent name="$PROJECT_DIR$/vite-project/src" />
       <recent name="$PROJECT_DIR$/vite-project/src/assets" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/static" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/vite-project" />
       <recent name="$PROJECT_DIR$/vite-project/src/assets" />
@@ -98,7 +108,12 @@
       <workItem from="1655554147547" duration="7735000" />
       <workItem from="1655724980603" duration="12000" />
       <workItem from="1655728317939" duration="638000" />
-      <workItem from="1676156103275" duration="5942000" />
+      <workItem from="1676156103275" duration="6496000" />
+      <workItem from="1679310754104" duration="93000" />
+      <workItem from="1679311508181" duration="312000" />
+      <workItem from="1680631447285" duration="1281000" />
+      <workItem from="1680718961881" duration="13000" />
+      <workItem from="1683477781388" duration="4047000" />
     </task>
     <servers />
   </component>

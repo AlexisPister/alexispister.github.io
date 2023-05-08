@@ -16,6 +16,7 @@ const props = defineProps({
   url: String,
   src: String
 })
+
 </script>
 
 <style scoped>

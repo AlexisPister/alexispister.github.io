@@ -1,6 +1,9 @@
 <template>
 
   <div id="main">
+    <Project name="30DayChartChallenge" url="https://alexispister.github.io/30DayChartChallenge-2023">
+      <img src="../static/imgs/30daychartchallenge.png">
+    </Project>
     <Project name="ComBiNet" url="https://www.aviz.fr/Research/ComBiNet">
       <img src="../static/imgs/combinet.png">
     </Project>
@@ -10,7 +13,7 @@
     <Project name="GraphletMatchMaker" url="https://graphletmatchmaker.github.io/">
       <img src="../static/imgs/vast-challenge.png">
     </Project>
-    <Project name="TriSelectif" url="https://github.com/AlexisPister">
+    <Project name="TriSelectif" url="https://alexispister.github.io/30DayChartChallenge-2023">
       <img src="../static/imgs/triSelectif.png">
     </Project>
   </div>

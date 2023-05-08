@@ -10,10 +10,11 @@ import Publications from "./components/Publications.vue";
 import {groupBy} from "lodash/collection";
 import {pubTypes, publicationsTypesEnum} from "./js/utils.js";
 
-import CV from './static/CV/CV_Academique.pdf';
-// import CV from './static/CV.pdf';
+// import CV from './static/CV/CV_Academique.pdf';
+import CV from './static/CV/CV.pdf';
 // import publicationsList from "./static/Exported Items.json"
-import publicationsList from "./static/bib.json"
+import publicationsList from "./static/biblio.json"
+// import publicationsList from "./static/bib.json"
 
 // let publications = ref();
 // onBeforeMount( async () => {
@@ -192,6 +193,16 @@ Telecom Paris</li>
           <ul>
             <li>EuroVis 2022</li>
             <li>VIS 2020 (Virtual)</li>
+          </ul>
+        </div>
+      </Section>
+
+      <Section title="Reviewing">
+        <div class="section">
+          <ul>
+            <li>VIS (2022, 2023)</li>
+            <li>Visual Informatics (2022)</li>
+            <li>GrapHNR (2023)</li>
           </ul>
         </div>
       </Section>

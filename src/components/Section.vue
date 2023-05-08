@@ -7,7 +7,7 @@
 </template>
 
 <script setup>
-import { ref } from 'vue'
+import {ref} from 'vue'
 
 defineProps({
   title: String
@@ -19,7 +19,13 @@ defineProps({
 h1 {
   color: #000000;
   font-variant-caps: small-caps;
-  font-weight:normal;
+  font-weight: normal;
+  display: table;
+
+  background-image: linear-gradient(transparent 85%, #efa964 15%);
+  //background-size: 100% 100%;
+  //background-repeat: no-repeat;
+  //background-position: top center;
 }
 
 </style>

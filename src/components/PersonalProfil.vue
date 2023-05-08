@@ -1,12 +1,11 @@
 <template>
   <div id="main">
-    <h1>Alexis Pister</h1>
+    <h1><span id="name">Alexis Pister</span></h1>
 <!--    <img id="profile-picture" src="../static/photo.jpg">-->
     <img id="profile-picture" src="../static/Moi.jpg">
-<!--    <p> Doctoral Student at Aviz </p>-->
 
     <div class="icons">
-      <a class="icon" href="alexis.pister@inria.fr">
+      <a class="icon" href="alexis.pister@hotmail.com">
         <i class="bx bx-mail-send"></i>
       </a>
 
@@ -36,6 +35,7 @@
       <a href="#Projects"> Projects </a>
       <a href="#Talks"> Talks </a>
       <a href="#Volunteering"> Volunteering </a>
+      <a href="#Reviewing"> Reviewing </a>
     </div>
   </div>
 
@@ -54,6 +54,10 @@ export default {
 #main {
   text-align: center;
   /*position: fixed;*/
+}
+
+#name {
+  background-image: linear-gradient(transparent 78%, #efa964 50%);
 }
 
 h1 {
